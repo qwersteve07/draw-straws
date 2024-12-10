@@ -38,10 +38,6 @@ const list = [
     sex: 'female',
   },
   {
-    name: 'danny',
-    sex: 'male',
-  },
-  {
     name: 'robin',
     sex: 'male',
   },
