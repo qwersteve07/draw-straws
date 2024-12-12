@@ -74,10 +74,6 @@ const list = [
     sex: 'female',
   },
   {
-    name: '志宇',
-    sex: 'male',
-  },
-  {
     name: 'sean',
     sex: 'male',
   },
