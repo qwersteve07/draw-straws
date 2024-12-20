@@ -2,71 +2,27 @@
 import { ref,onMounted ,computed} from 'vue'
 const list = [
   {
-    name: 'judy',
+    name: 'ailson',
+    sex: 'male',
+  },
+  {
+    name: 'alex',
+    sex: 'male',
+  },
+  {
+    name: 'ariel',
     sex: 'female',
-  },
-  {
-    name: '閃亮亮',
-    sex: 'male',
-  },
-  {
-    name: 'steve',
-    sex: 'male',
-  },
-  {
-    name: 'connie',
-    sex: 'female',
-  },
-  {
-    name: '俊杰',
-    sex: 'male',
   },
   {
     name: 'bubu',
     sex: 'male',
   },
   {
-    name: 'elena',
-    sex: 'female',
-  },
-  {
-    name: 'patty',
-    sex: 'female',
-  },
-  {
-    name: '淇淇',
-    sex: 'female',
-  },
-  {
-    name: 'robin',
-    sex: 'male',
-  },
-  {
-    name: 'summer',
-    sex: 'female',
-  },
-  {
-    name: '羊咩',
-    sex: 'female',
-  },
-  {
-    name: 'taco',
-    sex: 'male',
-  },
-  {
-    name: 'marshall',
-    sex: 'male',
-  },
-  {
-    name: 'rarity',
-    sex: 'female',
-  },
-  {
     name: 'christine',
     sex: 'female',
   },
   {
-    name: 'jenny',
+    name: 'connie',
     sex: 'female',
   },
   {
@@ -74,51 +30,7 @@ const list = [
     sex: 'female',
   },
   {
-    name: 'sean',
-    sex: 'male',
-  },
-  {
-    name: 'josephine',
-    sex: 'female',
-  },
-  {
-    name: 'rosalie',
-    sex: 'female',
-  },
-  {
-    name: '樺樺',
-    sex: 'female',
-  },
-  {
-    name: '育汝',
-    sex: 'female',
-  },
-  {
-    name: 'vin',
-    sex: 'male',
-  },
-  {
-    name: 'arthur',
-    sex: 'male',
-  },
-  {
-    name: 'sandy',
-    sex: 'female',
-  },
-  {
-    name: 'alex',
-    sex: 'male',
-  },
-  {
-    name: 'kazumi',
-    sex: 'female',
-  },
-  {
-    name: '妍蓁',
-    sex: 'female',
-  },
-  {
-    name: 'tina',
+    name: 'elena',
     sex: 'female',
   },
   {
@@ -130,8 +42,96 @@ const list = [
     sex: 'male',
   },
   {
-    name: 'ariel',
+    name: 'kiki',
     sex: 'female',
+  },
+  {
+    name: 'jenny',
+    sex: 'female',
+  },
+  {
+    name: 'josephine',
+    sex: 'female',
+  },
+  {
+    name: 'judy',
+    sex: 'female',
+  },
+  {
+    name: 'arthur',
+    sex: 'male',
+  },
+  {
+    name: 'kazumi',
+    sex: 'female'
+  },
+  {
+    name: 'marshall',
+    sex: 'male',
+  },
+  {
+    name: 'rarity',
+    sex: 'female',
+  },
+  {
+    name: 'robin',
+    sex: 'male',
+  },
+  {
+    name: 'rosalie',
+    sex: 'female',
+  },
+  {
+    name: 'sandy',
+    sex: 'female',
+  },
+  {
+    name: 'sean',
+    sex: 'male',
+  },
+  {
+    name: 'steve',
+    sex: 'male',
+  },
+  {
+    name: 'summer',
+    sex: 'female',
+  },
+  {
+    name: 'taco',
+    sex: 'male',
+  },
+  {
+    name: 'tina',
+    sex: 'female',
+  },
+  {
+    name: 'vin',
+    sex: 'male',
+  },
+  {
+    name: '樺樺',
+    sex: 'female',
+  },
+  {
+    name: '妍蓁',
+    sex: 'female',
+  },
+  {
+    name: '羊咩',
+    sex: 'female',
+  },
+  {
+    name: '育汝',
+    sex: 'female',
+  },
+  {
+    name: '俊杰',
+    sex: 'male',
+  },
+  {
+    name: '閃亮亮',
+    sex: 'male',
   },
 ]
 
