@@ -70,6 +70,10 @@ const list = [
     sex: 'male',
   },
   {
+    name: 'nicole',
+    sex: 'female'
+  },
+  {
     name: 'rarity',
     sex: 'female',
   },
